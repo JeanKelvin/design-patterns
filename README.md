@@ -82,4 +82,10 @@ Quando temos um conjunto de classes legadas, que achamos que seu uso vai sujar o
 
 Usamos ele quando temos que separar os comandos que serão executados do objeto que ele pertence.
 
+**Singleton**
 
+Uma classe que tenha apenas uma instância na aplicação. Abaixo, mostra alguns aspectos que devem serem cuidados ao criar esse padrão.
+
+- O construtor da classe fica como privado (private), sendo que não pode ser instanciada para fora da própria classe.
+- A classe é final, pois não permite a criação de subclasses da própria classe.
+- O acesso é permitido através do método que retorna a instância única da classe, ou faz a criação de uma, caso não tenha sido criada.
