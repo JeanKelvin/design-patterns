@@ -89,3 +89,7 @@ Uma classe que tenha apenas uma instância na aplicação. Abaixo, mostra alguns
 - O construtor da classe fica como privado (private), sendo que não pode ser instanciada para fora da própria classe.
 - A classe é final, pois não permite a criação de subclasses da própria classe.
 - O acesso é permitido através do método que retorna a instância única da classe, ou faz a criação de uma, caso não tenha sido criada.
+
+**Facade**
+
+O Padrão de Projeto Facade oculta toda a complexidade de uma ou mais classes através de uma Facade (Fachada). A intenção desse Padrão de Projeto é simplificar uma interface. 
